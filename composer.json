@@ -46,7 +46,9 @@
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
-        ]
+        ],
+        "test": "phpunit --colors=always --testdox",
+        "tests": "phpunit --colors=always --testdox"
     },
     "extra": {
         "laravel": {
