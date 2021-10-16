@@ -48,7 +48,8 @@
             "@php artisan key:generate --ansi"
         ],
         "test": "phpunit --colors=always --testdox",
-        "tests": "phpunit --colors=always --testdox"
+        "tests": "phpunit --colors=always --testdox",
+        "test-coverage": "phpunit --coverage-html build/coverage"
     },
     "extra": {
         "laravel": {
