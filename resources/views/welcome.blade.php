@@ -23,7 +23,7 @@
         }
     </style>
 
-    <title>Livewire 2 examples</title>
+    <title>Counter | Livewire 2 examples</title>
 
 </head>
 <body>
@@ -42,7 +42,10 @@
 </header>
 <main class="entry-content container mb-5">
     <!-- main body of the page -->
-    <h2>Examples</h2>
+    <h2>Counter example</h2>
+    <livewire:counter />
+    <!-- or -->
+{{--    @livewire('counter') --}}
 </main>
 <footer class="modal-footer mb-3 justify-content-between">
     <div>
@@ -57,7 +60,8 @@
         <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
             <img alt="Creative Commons Licence" style="border-width:0"
                  src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>
-        </a> This work is licensed under a <a rel="license"  target="_blank" href="http://creativecommons.org/licenses/by/4.0/">Creative
+        </a> This work is licensed under a <a rel="license" target="_blank"
+                                              href="http://creativecommons.org/licenses/by/4.0/">Creative
             Commons Attribution 4.0 International License</a>.
     </div>
     <div>
