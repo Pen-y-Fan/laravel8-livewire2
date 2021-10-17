@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Livewire\HelloWorld;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,5 +19,9 @@ Route::get('/', function () {
 })->name('welcome');
 
 Route::get('/counter', function () {
-    return view('counter');
+    return view('counter.counter');
 })->name('counter');
+
+Route::get('/hello-world', function () {
+    return view('hello-world.hello-world');
+})->name('hello-world');
