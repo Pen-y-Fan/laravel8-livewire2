@@ -75,7 +75,7 @@
             Commons Attribution 4.0 International License</a>.
     </div>
     <div>
-        Source: <a href="https://laravel-livewire.com/docs/2.x/quickstart/" target="_blank">Laravel Livewire</a>
+        Source: <a href={{ $source ?? 'https://laravel-livewire.com/docs/2.x/quickstart/' }} target="_blank">Laravel Livewire</a>
     </div>
 </footer>
 
