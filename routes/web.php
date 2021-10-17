@@ -25,3 +25,12 @@ Route::get('/counter', function () {
 Route::get('/hello-world', function () {
     return view('hello-world.hello-world');
 })->name('hello-world');
+
+Route::get('/contact-form/contact-form-success', function () {
+    return view('contact-form.contact-form-success');
+})->name('contact-form-success');
+
+Route::get('/contact-form', function () {
+    return view('contact-form.contact-form');
+})->name('contact-form');
+

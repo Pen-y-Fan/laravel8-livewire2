@@ -10,6 +10,7 @@
     <ul>
         <li><a href="{{ route("counter") }}">Counter</a></li>
         <li><a href="{{ route("hello-world") }}">Hello world</a></li>
+        <li><a href="{{ route("contact-form") }}">Contact form</a></li>
     </ul>
 
 </x-layout>
