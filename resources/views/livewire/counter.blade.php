@@ -5,7 +5,7 @@
     {{--        <h1>{{ $count }}</h1>                       --}}
     {{--    </div>                                          --}}
     <div class="mb-4 text-center">
-        <button class="btn btn-warning" wire:click="increment">
+        <button class="btn btn-warning" aria-label="increase" wire:click="increment">
             <!-- "increment" is the method 'public function increment()' in the Counter class -->
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle"
                  viewBox="0 0 16 16">
@@ -14,8 +14,8 @@
                     d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
             </svg>
         </button>
-        <!-- {{ $count }} is the property 'public $count = 0;' in the Counter class -->
-        <h2>{{ $count }}</h2>
+        {{-- {{ $count }} is the property 'public $count = 0;' in the Counter class --}}
+        <p class="h2">{{ $count }}</p>
     </div>
     <div>
         <blockquote class="blockquote">

@@ -7,7 +7,7 @@
     </x-slot>
 
     <!-- main body of the page -->
-    <h2>Counter example</h2>
+    <h1>Counter example</h1>
     <livewire:counter/>
     <!-- or -->
     {{--    @livewire('counter') --}}
