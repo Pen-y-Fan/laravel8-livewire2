@@ -1,4 +1,4 @@
-<div>
+<div xmlns:wire="http://www.w3.org/1999/xhtml">
     <form wire:submit.prevent="submit">
         <div class="mb-3">
             <label for="formInputName" class="form-label">Name</label>

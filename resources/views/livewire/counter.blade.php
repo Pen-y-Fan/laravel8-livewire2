@@ -1,4 +1,4 @@
-<div>
+<div xmlns:wire="http://www.w3.org/1999/xhtml">
     {{--    original:                                       --}}
     {{--    <div style="text-align: center">                --}}
     {{--        <button wire:click="increment">+</button>   --}}
@@ -22,7 +22,8 @@
             <p>In general, something as trivial as this "counter" is more suited for something like AlpineJS, however
                 it's one of the best ways to easily understand the way Livewire works.</p>
             <footer class="blockquote-footer"><cite title="Source Title"><a
-                        href="https://laravel-livewire.com/docs/2.x/quickstart">Livewire - Quickstart documentation</a></cite></footer>
+                        href="https://laravel-livewire.com/docs/2.x/quickstart">Livewire - Quickstart documentation</a></cite>
+            </footer>
         </blockquote>
     </div>
 </div>
